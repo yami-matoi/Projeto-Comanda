@@ -1,0 +1,70 @@
+/* src/pages/Cadastro-Item/style.scss */
+.cadastro-item-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+  }
+  
+  .cadastro-item-container {
+    padding: 24px;
+    width: 100%;
+    max-width: 500px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
+  
+  .voltar-btn {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    background: none;
+    border: none;
+    color: #3498db;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  h2 {
+    margin-bottom: 24px;
+    color: #2c3e50;
+  }
+  
+  .cadastro-form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .cadastro-form label {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .cadastro-form input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 4px;
+  }
+  
+  .cadastro-form button[type="submit"] {
+    padding: 10px;
+    background-color: #2ecc71;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.2s;
+  }
+  
+  .cadastro-form button[type="submit"]:hover {
+    background-color: #27ae60;
+  }
+  
